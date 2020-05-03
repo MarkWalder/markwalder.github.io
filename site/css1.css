@@ -1,0 +1,79 @@
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 30px;
+    height:30px;
+    float: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+
+
+
+
+body {margin:0;}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+  
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+li  a:hover:not(.active) {
+  background-color: #d34d43;
+
+}
+html {
+  background: url('https://i.pinimg.com/originals/e4/e4/5d/e4e45d2b87cf17bd684bec4d8b5b64a6.jpg') no-repeat center top; /* добавили картинку на задний план */
+}
+html {
+  background: 
+}
+h1 {
+ font-size: 60px;  /*   изменяю размер шрифта  */
+}
+h2 {
+  font-size: 35px;
+}
+h3{
+  font-size: 30px;
+}
+#video {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.style {
+  position: relative;
+  left: 25%; 
+  width: 50%;
+}
+
